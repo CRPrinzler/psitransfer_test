@@ -1,0 +1,10 @@
+[build.environment]
+  NODE_VERSION= ">12"
+
+[build]
+  command = "cd app && npm install && npm run build"
+  publish = "dist"
+ 
+
+#[dev]
+#  targetPort = 3000
