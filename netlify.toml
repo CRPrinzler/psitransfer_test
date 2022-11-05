@@ -1,5 +1,5 @@
 [build.environment]
-  NODE_VERSION= ">12"
+ # NODE_VERSION= ">12"
 
 [build]
   command = "cd app && npm install && npm run build && cd .. && npm install && npm run"
