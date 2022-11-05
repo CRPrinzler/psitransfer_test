@@ -13,9 +13,9 @@ const config = {
   "uploadAppPath": '/',
   "iface": '0.0.0.0',
   // set to false to disable HTTP
-  "port": 3000,
+  "port": 80,
   // HTTPS, set all 3 values to enable
-  "sslPort": 8443,
+  "sslPort": 443,
   "sslKeyFile": false,
   "sslCertFile": false,
   // Force redirect to https
