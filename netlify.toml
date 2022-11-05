@@ -2,7 +2,7 @@
  # NODE_VERSION= ">12"
 
 [build]
-  command = "cd app && npm install && npm run build && cd .. && npm install && npm start"
+  command = "cd app && npm install && npm run build && cd .. && npm install"
  #publish = "dist"
  
 
